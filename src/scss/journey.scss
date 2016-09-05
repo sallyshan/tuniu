@@ -1,0 +1,170 @@
+#jheader{
+  width:100%;
+  height: 104px;
+  background: url("../img/xcb.png") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  position: relative;
+  .ss{
+    width:18px;
+    height: 18px;
+    background: url("../img/gwc.png") no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    position: absolute;
+    right:12px;
+    top:10px;
+  }
+}
+.wrap_info{
+  .text_info{
+    background: #FFF;
+    height:100%;
+    min-height: 150px;
+    .from1{
+      width:100%;
+      height:40px;
+      line-height:40px;
+      position: relative;
+      span{
+        float: left;
+        padding:0 8px 0 12px;
+      }
+      input{
+        width:44%;
+        position: absolute;
+        top:50%;
+        margin-top:-8px;
+        left:32px;
+        border:none;
+      }
+      .txt{
+        position: absolute;
+        right:48px;
+      }
+      i{
+        position: absolute;
+        right:14px;
+      }
+    }
+    em{
+      width:100%;
+      display: block;
+      border-top:1px solid #CCC;
+    }
+    .to{
+      clear: both;
+      width:100%;
+      height:40px;
+      line-height:40px;
+      position: relative;
+      span{
+        float: left;
+        padding:0 8px 0 12px;
+      }
+      input{
+        width:44%;
+        position: absolute;
+        top:50%;
+        margin-top:-8px;
+        left:32px;
+        border:none;
+      }
+      .te{
+        position: absolute;
+        right:48px;
+        .jian{
+          width:22px;
+          height:22px;
+          line-height:22px;
+          text-align:center;
+          background: #ccc;
+          font-size: 22px;
+          position: absolute;
+          right:56px;
+          top:50%;
+          margin-top:-10px;
+        }
+        input{
+          position: absolute;
+        }
+        .jia{
+          width:22px;
+          height:22px;
+          line-height:22px;
+          text-align:center;
+          background: #ccc;
+          font-size: 22px;
+          margin-top:16px;
+        }
+        input{
+          position: absolute;
+          left:-22px;
+          width:100%;
+        }
+      }
+      i{
+        position: absolute;
+        right:14px;
+      }
+    }
+  }
+  .get{
+    color:#8d8d8c;
+    margin-top:6px;
+    height:18px;
+    line-height:18px;
+    font-size:12px;
+    padding-left: 14px;
+  }
+   #btn{
+    width:94%;
+    height:30px;
+    border-radius:6px;
+    background: #fe9925;
+    color:#FFF;
+    text-align:center;
+    position: relative;
+    left:50%;
+    top:2px;
+    margin-left:-47%;
+  }
+  .gre{
+    width:100%;
+    height:100%;
+    margin-top:10px;
+    background:#FFF;
+    h6{
+      background:url("../img/gr.png") no-repeat 8px 10px;
+      background-size: 20px 20px;
+      padding-top: 13px;
+      padding-left:40px;
+      color: #888887;
+    }
+    dl{
+      width:30%;
+      margin-left:5px;
+      display: inline-block;
+      border:1px solid #CCC;
+      margin-top:10px;
+      dt{
+        width:100%;
+        height:86px;
+        img{
+          width:100%;
+          height:100%;
+        }
+      }
+      dd{
+        text-align:center;
+        color:#60605F;
+      }
+    }
+  }
+}
+#j_info{
+  width:100%;
+  height:auto;
+  background: #f0f0f0;
+  padding-bottom:96px;
+}

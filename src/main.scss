@@ -1,0 +1,14 @@
+// reset stylesheet
+@import 'scss/reset.scss';
+
+//common stylesheet
+
+@import 'scss/common.scss';
+
+//dev stylesheet
+@import 'scss/index.scss';
+@import "scss/bourn.scss";
+@import "scss/find.scss";
+@import "scss/journey.scss";
+@import "scss/my.scss";
+@import "scss/login.scss";

@@ -1,0 +1,131 @@
+.find{
+  width:100%;
+  height:100%;
+  background: #e5e5e5;
+}
+#fheader{
+  background: #FFF;
+  border-bottom:1px solid #CCC;
+  position: relative;
+  a{
+    width:17px;
+    height:17px;
+    display: block;
+    background:url(../img/info1.png) no-repeat;
+    background-size:100% 100%;
+    position: absolute;
+    top:50%;
+    margin-top:-8px;
+    left:8px;
+  }
+  h4{
+    text-align: center;
+    color:#000;
+  }
+  span{
+    position: absolute;
+    top:50%;
+    margin-top:-8px;
+    right:8px;
+    width:17px;
+    height:17px;
+    display: block;
+    background:url(../img/search.png) no-repeat;
+    background-size: 100% 100%;
+  }
+}
+#s_info{
+ overflow:auto;
+  padding-bottom: 96px;
+}
+.wrap_info{
+  .top{
+    background: #FFF;
+    .lg{
+      width:100%;
+      min-height:70px;
+      height:auto;
+      background:url(../img/fpng.png) no-repeat;
+      background-size: 100% 100%;
+    }
+    .jb{
+      width:100%;
+      min-height:70px;
+      height:auto;
+      background:url(../img/fpng1.png) no-repeat;
+      background-size: 100% 100%;
+      margin-top:7px;
+    }
+    .t_box{
+      margin-top:12px;
+      ul{
+        width:100%;
+        height:30px;
+        margin:10px auto;
+        li{
+          float:left;
+          width:50%;
+          text-align: center;
+          &:nth-child(1){
+            border-right: 1px solid #CCC;
+          }
+          p{
+            width:78%;
+            white-space: nowrap;
+            overflow: hidden;                      
+            text-overflow: ellipsis;
+            color:#3e3e3e;
+            margin:auto;
+          }
+          span{
+            margin-left: -42px;
+            color:#cfcfcf;
+            font-size:12px;
+          }
+        }
+      }
+      .duan{
+        height:26px;
+        line-height:26px;
+        border-top:1px solid #CCC;
+        text-align: center;
+        color:#c2c2c2;
+      }
+    }
+  }
+  .down{
+    margin-top:10px;
+    width:100%;
+    height:100%;
+    background: #FFF;
+    .t_title{
+      padding-top:12px;
+    }
+    ul{
+      margin-top:8px;
+      li{
+        margin-top:6px;
+        width:100%;
+      }
+    }
+    img{
+      width:46%;
+      margin-left:6px;
+    }
+  }
+  .t_title{
+    text-align: center;
+    h6{
+      font-weight:normal;
+      color:#383838;
+    }
+    p{
+      width:100px;
+      border:1px solid #000;
+      margin:6px auto;
+    }
+    h2{
+      font-size:16px;
+    }
+  }
+}

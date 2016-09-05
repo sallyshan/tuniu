@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"  ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body  ng-controller="ctrl">
+    <footer class="footer" ng-controller="ctrl">
+        <a  ui-sref="index" ui-sref-active="bg"><span></span>首页</a>
+        <a  ui-sref="bourn" ui-sref-active="bg"><span></span>目的地</a>
+        <a  ui-sref="find" ui-sref-active="bg"><span></span>发现</a>
+        <a  ui-sref="journey" ui-sref-active="bg"><span></span>行程玩法</a>
+        <a  ui-sref="my" ui-sref-active="bg"><span></span>我的</a>
+    </footer>
+    <div class="box" ui-view></div>
+    <div class="hotelcity"></div>
+    <div class="plugin">
+      <div class="header">
+        <div class="head-left">
+            <span class="left-arrow back" ng-click="delate()"></span>
+        </div>
+        <div class="head-center">
+            <i></i>
+            <input type="text" placeholder="日本">
+
+        </div>
+        <div class="head-right">
+            <span></span>
+        </div>
+      </div>
+      <div class="cont">
+        <p class="p1">热门搜索</p>
+        <ul>
+            <li>北京</li>
+            <li>泰国</li>
+            <li>云南</li>
+            <li>三亚</li>
+            <li>韩国</li>
+            <li>欧洲</li>
+            <li>厦门</li>
+            <li>巴厘岛</li>
+            <li>马尔代夫</li>
+            <li>九寨沟</li>
+            <li>台湾</li>
+            <li>青岛</li>
+            <li>古北水镇</li>
+            <li>吉普岛</li>
+            <li>西藏</li>
+            <li>丽江</li>
+        </ul>
+        <p class="p2">更多热门目的地</p>
+        <p  class="p3">历史搜索</p>
+      </div>
+    </div>
+    <div class="tkd">
+       <img src="../img/kf.png" alt="">
+       <ul>
+        <li>24小时客服电话</li>
+        <li>400-799-9999(免长途费)</li>
+       </ul>
+       <ol>
+        <li class="refer">电话咨询</li>
+        <li class="delate">取消</li>
+       </ol>
+    </div>
+    <script src="../lib/require.js" data-main="../main"></script>
+    <script src="../lib/jquery.js"></script>
+    <script src="../lib/angular.min.js"></script>
+    <script src="../lib/angular-ui-router.min.js"></script>
+    <script src="../js/controller.js"></script>
+</body>
+</html>
